@@ -1,0 +1,346 @@
+<html>
+    <head>
+        <title>
+            Road Assistance
+        </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+        .container{
+            background-color: rgb(209, 226, 240);
+            width: 100%;
+            position:fixed;
+            border: grey;
+            top: 0;
+            
+           border-bottom: 1px solid rgb(87, 87, 93);
+           padding: 10px;
+           box-shadow: 5px 10px 8px #888888;
+           list-style: none;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .list{
+            
+            float: left;
+        }
+        b{
+            color: rgb(3, 83, 83);
+            font-size: medium;
+                }
+        .icon{
+            margin-top: 20;
+        }
+        
+        button{
+            margin-left: 70;
+            background-color: rgb(148, 180, 206,.00009);
+            border: none;
+            outline: none;
+        }
+        .button1:hover{ 
+            background-color: rgb(247, 209, 42);  
+            cursor: pointer;  
+                                                     
+        }
+        .btn:hover{
+            background-color: rgb(247, 209, 42); 
+            cursor: pointer;
+            
+        }
+        .btn{
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            outline: none;
+        }
+        .button1{
+            padding: 10px;
+            font-size: 16px;
+            border: none; 
+            outline: none;  
+        }
+/* trial*/
+#dropbtn {
+  background-color: rgb(148, 180, 206,.00009);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+#dropbtn:hover{
+    background-color: rgb(247, 209, 42); 
+    cursor: pointer;     
+    
+}
+.drop {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  width: 100%;
+  box-shadow: 0px 8px 16px 0px rgb(7, 44, 49);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(18, 128, 128);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: cursive;
+}
+
+.dropdown-content a:hover {background-color: rgb(188, 228, 228);  cursor: pointer;}
+
+.drop:hover .dropdown-content {display: block;  cursor: pointer; }
+
+.drop:hover .dropbtn {background-color: #3e8e41; cursor: pointer;}
+
+.cont img{
+    width: 100%;
+    margin-top: 115;
+    position: static;
+}
+.cont{
+    position: static;
+    text-align: right;
+    color: white;
+    
+}
+.text {
+  text-align: left;
+  margin-top: -570;
+  left: 16px;
+  top: 20%;
+  font-family: cursive;
+  font-size: xx-large;
+  color: #000;
+  overflow: hidden;
+  margin-left: 10;
+}
+.text b{
+    color: black;
+    font-size: xx-large;
+    
+    font-family: serif;
+    text-shadow: 2.5px 2.5px rgb(241, 199, 8);
+}
+.caption{
+    margin-right: 20;
+    top: 30%;
+    right: 16px;
+    margin-top: -10;
+
+}
+.caption p{
+    color: rgb(10, 68, 73);
+    font-size: x-large;
+}
+.cap1{
+    color: rgb(10, 68, 73);
+    margin-right: 5;
+    margin-top: 8;
+    right: 16px;
+    font-weight: bold;
+}
+
+i{
+    font-size: medium;
+}
+
+.rescue{
+    margin-right: 200;
+    top: 43%;
+    right: 200px;
+    margin-top:-13;
+}
+.res:hover{
+            
+            cursor: pointer;
+            
+        }
+        .res{
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            outline: none;
+            background-color: rgb(247, 209, 42); 
+            
+        }
+        .block{
+            background-color:rgb(209, 226, 240);
+            width: 100%;
+            height: 90px;
+            
+            margin-top: 320;
+        }
+        .perscroll {
+    background: none;
+    color: #3498db;
+    font-size: 36px;
+    line-height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 2%;
+    text-align: center;
+}
+.mySlides {display:none;}
+.w3-content w3-display-container{
+    margin-left: 750;
+}
+.w3-content w3-display-container img{
+    width: 200;
+    display: block;
+    height: 250;
+       
+}
+.w3-black, .w3-hover-black:hover {
+    color: rgb(10, 68, 73)!important;
+    background-color:  rgb(247, 209, 42)!important;
+}
+.w3-display-left {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    outline: none;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(-0%,-50%);
+    margin-top: 550;
+    margin-left: 400;
+    font-size: 50;
+}
+.w3-btn, .w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.w3-display-right {
+    position: absolute;
+    font-size: 50;
+    outline: none;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(0%,-50%);
+    margin-top: 550;
+    margin-right: 400;
+}
+
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+
+           <li class="list"><img src="t1.jpg" style="height:90"></li>
+            <div class="icon" > <li class="list"><button class="button1"><i style="font-size: xx-large;
+                 color:rgb(8, 98, 98)" class="fa fa-phone-square" aria-hidden="true"></i><b>+91 8790800475</b></button></li></div>
+                <div style=" margin-left:80;" class="drop"><li><button type="menu" class="button1" id="dropbtn"><b>24/7 ROAD ASSISTANCE</b></button></li><div class="dropdown-content">
+                     <a href="#">Puncture and Flat Tyre Services</a>
+                      <a href="#">Minor On-road Repairs</a>
+                      <a href="#">Emergency Fuel Delivery</a>
+                      <a href="#">Learn To Drive</a>
+                      <a href="#">Get yourself a Driver</a>
+                      
+                      
+                         </div>
+                 </div>
+            <div style=" margin-left:830;margin-top:-60;"> <li class="list"><button class="btn"><b>IN CASE OF AN EMERGENCY</b>
+            <li class="list"><button class="btn"><b>LOG IN</b></div>
+          
+        </div>
+     
+      <div class="cont">
+            <img src="t2.jpg" style="height:600;">
+            <div class="text"><b>ROAD ASSISTANCE MADE EASY!</b></div>
+            <div class="caption"><p>24/7 Vehicle breakdown services in Visakhapatnam.<br><i>Member or not, click below to get immediate assistance.</i></p></div>
+            <div class="rescue"><button class="res"><b>GET RESCUED NOW</b></button></div>
+            <div class="cap1"><i>30 Minutes average reach time | Trained Mechanics | Available across Visakhapatnam
+            </i></div>
+        </div>
+      <div class="block">
+          <li style="list-style:none;">
+          <img src="arrow.gif" style="height: 60;
+          margin-left: 200; margin-top:20;"></li>
+          <div style="margin-left: 400;
+          margin-top: -50;
+          font-family: sans-serif;
+          color: rgb(3, 83, 83);
+          font-weight: 600;"><p>EXPLORE VISAKHAPATNAM'S PREMIER ROAD ASSISTANCE PROVIDER</p></div>
+          <img src="arrow.gif" style="height: 60;
+          margin-left: 1240;
+          margin-top: -78;">
+      </div>
+      <div class="w3-content w3-display-container">
+          <br>
+        <center><img class="mySlides" src="fuel.jpg" style="width: 200;
+            display: block;
+            height: 250;">
+            <img class="mySlides" src="flat.jpg" style="width: 250;
+            display: block;
+            height: 250;">
+            <img class="mySlides" src="custody.jpg" style="width: 250;
+            display: block;
+            height: 250;">
+            <img class="mySlides" src="puncture.jpg" style="width: 250;
+            display: block;
+            height: 250;">
+            <img class="mySlides" src="start.jpg" style="width: 250;
+            display: block;
+            height: 250;">
+            <img class="mySlides" src="chain.jpg" style="width: 250;
+            display: block;
+            height: 250;">
+            <img class="mySlides" src="cable.jpg" style="width: 250;
+            display: block;
+            height: 250;">
+            <img class="mySlides" src="biketow.jpg" style="width: 250;
+            display: block;
+            height: 250;">
+        
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+         </center> </div>
+          
+          <script>
+          var slideIndex = 1;
+          showDivs(slideIndex);
+          
+          function plusDivs(n) {
+            showDivs(slideIndex += n);
+          }
+          
+          function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";  
+            }
+            x[slideIndex-1].style.display = "block";  
+          }
+          </script>
+          
+           
+         
+    </body>
+</html>
